@@ -1,0 +1,81 @@
+a {
+  color: brown;
+}
+a,
+p,
+li {
+  font-size: 20px;
+}
+h1 {
+  text-shadow: 2px 2px;
+  text-align: center;
+}
+h2 {
+  text-shadow: 2px 2px 3px magenta;
+  text-align: center;
+  font-style: italic;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+.yellow {
+  color: yellow;
+}
+.cyan {
+  color: cyan;
+}
+.blue {
+  color: blue;
+}
+.active {
+  color: blue;
+  background-color: greenyellow;
+}
+.bor-solid {
+  border: solid;
+}
+.bor-double {
+  border: double;
+}
+.bor-dotted {
+  border: dotted;
+}
+.nav {
+  background-color: honeydew;
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+.F-right {
+  float: right;
+}
+.F-left {
+  float: left;
+}
+.center {
+  text-align: center;
+}
+.font1 {
+  font-family: "Times New Roman", Times, serif;
+}
+.font2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.liCircle {
+  list-style: circle;
+}
+.bRed {
+  background-color: red;
+}
+.bYellow {
+  background-color: yellow;
+}
