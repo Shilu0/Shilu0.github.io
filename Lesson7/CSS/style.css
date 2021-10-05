@@ -1,0 +1,510 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+/* ul {
+   list-style: none; 
+} */
+
+li a {
+  text-decoration: none;
+  color: #333;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.nowrap {
+  flex-wrap: nowrap;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-stretch {
+  align-items: stretch;
+}
+
+.F-right {
+  float: right;
+}
+
+.F-left {
+  float: left;
+}
+
+/* Header */
+.header {
+  height: 90px;
+}
+
+/* Main */
+/* 
+main {
+    background-color: rgb(235, 235, 223);
+} */
+
+.main-top {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1877f2;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: -2px;
+}
+.top-left {
+  margin-top: 10px;
+}
+.bottom-left {
+  margin-top: 20px;
+}
+.acc-box {
+  border: 1px solid rgb(180, 170, 170);
+  border-radius: 8px;
+  margin-right: 5px;
+}
+.pic-box {
+  height: 80%;
+}
+.name-box {
+  height: 20%;
+  padding: 10px;
+  text-align: center;
+}
+.center-right-box {
+  width: 100%;
+  height: 350px;
+  border: 1px solid rgb(180, 170, 170);
+  border-radius: 8px;
+  margin-left: 10px;
+}
+
+.main-bot {
+  margin-top: 15px;
+  padding-bottom: 200px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+}
+
+.input-box {
+  margin: 0px 16px 0px 16px;
+  border-radius: 6px;
+  border-color: rgb(226, 221, 221);
+}
+
+.log-botton {
+  background-color: #1877f2;
+  font-size: 20px;
+  border-radius: 6px;
+  margin: 0px 16px 0px 16px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border: none;
+}
+
+.forget-pass {
+  color: #1877f2;
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.creat-button {
+  background-color: #42b72a;
+  font-size: 18px;
+  border-radius: 6px;
+  height: 45px;
+  margin: 1px 100px 16px 100px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border: none;
+}
+
+.creat-border {
+  width: 100%;
+  padding-top: 30px;
+  margin: 10px;
+}
+
+.button {
+  background-color: #42b72a;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  border-radius: 6px;
+  padding: 13px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+}
+
+/* Footer */
+
+.foot-box {
+  color: #8a8d91;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.top-footer {
+  margin-top: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(223, 217, 217);
+}
+
+.mid-footer-1 {
+  margin-top: 10px;
+}
+
+.mid-footer-2 {
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+
+.bot-footer {
+  margin-top: auto;
+  margin-bottom: 10px;
+}
+
+/* Create New Account */
+
+.signUpForm {
+  width: 100%;
+  border: 1px solid rgb(180, 170, 170);
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.create-header {
+  width: 100%;
+  /* padding-bottom: 15px; */
+  border-bottom: 1px solid rgb(207, 200, 200);
+  margin-bottom: 10px;
+}
+
+.heading {
+  width: 100%;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.notation {
+  width: 100%;
+  font-size: 17px;
+  margin: 10px;
+}
+
+.firstName {
+  margin: 10px;
+  border-radius: 6px;
+  border-color: rgb(226, 221, 221);
+}
+
+.surName {
+  margin: 10px;
+  border-radius: 6px;
+  border-color: rgb(226, 221, 221);
+}
+
+.mobileEmail {
+  width: 100%;
+  margin: 10px;
+  border-radius: 6px;
+  border-color: rgb(226, 221, 221);
+}
+
+.password {
+  width: 100%;
+  margin: 10px 10px 30px 10px;
+  border-radius: 6px;
+  border-color: rgb(226, 221, 221);
+}
+
+.birthday-day {
+  width: 100%;
+  margin: 2px 10px 10px 10px;
+  border-radius: 6px;
+  border-color: rgb(226, 221, 221);
+}
+
+.label-birthday {
+  width: 100%;
+  margin: 10px 10px 0px 10px;
+  border-radius: 6px;
+  border-color: rgb(226, 221, 221);
+}
+
+.birthday-month {
+  width: 100%;
+  margin: 2px 10px 10px 10px;
+  border-radius: 6px;
+  border-color: rgb(226, 221, 221);
+}
+
+.birthday-year {
+  width: 100%;
+  padding-right: 10px;
+  margin: 2px 10px 10px 10px;
+  border-radius: 6px;
+  border-color: rgb(226, 221, 221);
+}
+
+.label-gender {
+  width: 100%;
+  margin: 15px 2px 0px 10px;
+  border-radius: 6px;
+  border-color: rgb(226, 221, 221);
+}
+.gender-box {
+  width: 100px;
+  padding-right: 10px;
+  margin: 15px 10px 10px 2px;
+  border-radius: 6px;
+  border-color: rgb(226, 221, 221);
+}
+
+.note-signUp {
+  font-size: 13px;
+  margin: 5px 0px 20px 15px;
+}
+
+.sign-button {
+  background-color: #42b72a;
+  font-size: 18px;
+  border-radius: 6px;
+  height: 40px;
+  margin: 1px 150px 20px 150px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border: none;
+}
+
+/* Back Home Page */
+.back {
+  color: red;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+/* Premier League Ranking */
+
+.header-pl {
+    width: 100%;
+  
+  padding: 20px;
+  font-weight: bold;
+}
+
+.title {
+  width: 100%;
+  font-size: 25px;
+  text-align: center;
+  color: rgb(9, 102, 102);
+}
+
+.nav-pl {
+  width: 100%;
+  background-color: #ebebeb;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-box {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.nav-center {
+  width: 100%;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top-left {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.bxh {
+  font-size: 18px;
+  color: rgb(3, 20, 20);
+  font-weight: bold;
+  text-align: center;
+}
+
+.calendar {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.result {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.center-left {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table,
+tr,
+th,
+td {
+  border: 1px solid #999;
+  border-collapse: collapse;
+}
+table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+th,
+td {
+  padding: 5px;
+}
+tbody tr:nth-child(2n + 1) {
+  background-color: rgb(219, 218, 214);
+}
+td {
+  text-align: center;
+}
+.note-table {
+  text-align: left;
+  font-style: italic;
+}
+
+.b-blue {
+  border-color: blue;
+  background-color: blue;
+  height: 15px;
+  width: 15px;
+  padding: 0px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.b-red {
+  border-color: red;
+  background-color: red;
+  height: 15px;
+  width: 15px;
+  padding: 0px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.b-org {
+  border-color: orange;
+  background-color: orange;
+  height: 15px;
+  width: 15px;
+  padding: 0px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.CL {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.messi {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.logFace {
+    text-align: center;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(179, 66, 22);
+}
+
+.arrow {
+    
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+
+}
+
+.foot {
+  width: 100%;
+  border-top: 1px solid #8a8d91;
+  padding-top: 10px;
+  margin-bottom: 15px;
+}
