@@ -1,0 +1,162 @@
+
+.container {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+    
+}
+
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;    
+    /* margin-left: 6px;
+    margin-right: 6px; */
+}
+
+
+.col-1 {
+    flex-basis: 4.166667%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.col-2 {
+    flex-basis: 8.333333%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.col-3 {
+    flex-basis: 12.5%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.col-4 {
+    flex-basis: 16.666667%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.col-5 {
+    flex-basis: 20.833333%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.col-6 {
+    flex-basis: 25%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.col-7 {
+    flex-basis: 29.166667%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.col-8 {
+    flex-basis: 33.333333%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.col-9 {
+    flex-basis: 37.5%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.col-10 {
+    flex-basis: 41.666667%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.col-11 {
+    flex-basis: 45.833333%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.col-12 {
+    flex-basis: 50%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.col-13 {
+    flex-basis: 54.166667%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.col-14 {
+    flex-basis: 58.333333%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.col-15 {
+    flex-basis: 62.5%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.col-16 {
+    flex-basis: 66.666667%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.col-17 {
+    flex-basis: 70.833333%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.col-18 {
+    flex-basis: 75%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.col-19 {
+    flex-basis: 79.166667%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.col-20 {
+    flex-basis: 83.333333%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.col-21 {
+    flex-basis: 87.5%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.col-22 {
+    flex-basis: 91.666667%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.col-23 {
+    flex-basis: 95.833333%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.col-24 {
+    flex-basis: 100%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
